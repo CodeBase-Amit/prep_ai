@@ -20,9 +20,7 @@ import dayjs from "dayjs";
      const feedback = await getFeedbackByInterviewId({
          interviewId: id,
          userId: user?.id!,
-     })
- 
-     console.log(feedback);
+        });
  
      return (
          <section className="section-feedback">
