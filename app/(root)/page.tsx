@@ -10,9 +10,9 @@ const Page = () => {
         <>
             <section className="card-cta">
                 <div className="flex flex-col gap-6 max-w-lg">
-                    <h2>Get Interview-Ready with AI-Powered Practice & Feedback</h2>
+                    <h2>Ace Your Interviews with Smart AI Practice and Insightful Feedback</h2>
                     <p className="text-lg">
-                        Practice on real interview questions & get instant feedback
+                    Practice Real Interview Scenarios & Get Immediate Feedback
                     </p>
                     
                     <Button asChild className="btn-primary max-sm:w-full">
@@ -20,7 +20,7 @@ const Page = () => {
                     </Button>
                 </div>
 
-                <Image src="/robot.png" alt="robo-dude" width={400} height={400} className="max-sm:hidden" />
+                <Image src="/robo_image_transparent.svg" alt="robo-dude" width={400} height={400} className="max-sm:hidden" />
             </section>
 
             <section className="flex flex-col gap-6 mt-8">
